@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C141371D336F7B00B98438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C141361D336F7B00B98438 /* main.m */; };
+		19C1413A1D336F7B00B98438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C141391D336F7B00B98438 /* AppDelegate.m */; };
+		19C1413D1D336F7B00B98438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1413C1D336F7B00B98438 /* ViewController.m */; };
+		19C141401D336F7B00B98438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C1413E1D336F7B00B98438 /* Main.storyboard */; };
+		19C141421D336F7B00B98438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C141411D336F7B00B98438 /* Assets.xcassets */; };
+		19C141451D336F7B00B98438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C141431D336F7B00B98438 /* LaunchScreen.storyboard */; };
+		19C141501D336F7B00B98438 /* JYChatMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1414F1D336F7B00B98438 /* JYChatMessageTests.m */; };
+		19C1415B1D336F7B00B98438 /* JYChatMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1415A1D336F7B00B98438 /* JYChatMessageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C1414C1D336F7B00B98438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C1412A1D336F7B00B98438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C141311D336F7B00B98438;
+			remoteInfo = JYChatMessage;
+		};
+		19C141571D336F7B00B98438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C1412A1D336F7B00B98438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C141311D336F7B00B98438;
+			remoteInfo = JYChatMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C141321D336F7B00B98438 /* JYChatMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYChatMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C141361D336F7B00B98438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19C141381D336F7B00B98438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19C141391D336F7B00B98438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19C1413B1D336F7B00B98438 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19C1413C1D336F7B00B98438 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19C1413F1D336F7B00B98438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19C141411D336F7B00B98438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C141441D336F7B00B98438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C141461D336F7B00B98438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C1414B1D336F7B00B98438 /* JYChatMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYChatMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C1414F1D336F7B00B98438 /* JYChatMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYChatMessageTests.m; sourceTree = "<group>"; };
+		19C141511D336F7B00B98438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C141561D336F7B00B98438 /* JYChatMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYChatMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C1415A1D336F7B00B98438 /* JYChatMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYChatMessageUITests.m; sourceTree = "<group>"; };
+		19C1415C1D336F7B00B98438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C1412F1D336F7B00B98438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141481D336F7B00B98438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141531D336F7B00B98438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C141291D336F7B00B98438 = {
+			isa = PBXGroup;
+			children = (
+				19C141341D336F7B00B98438 /* JYChatMessage */,
+				19C1414E1D336F7B00B98438 /* JYChatMessageTests */,
+				19C141591D336F7B00B98438 /* JYChatMessageUITests */,
+				19C141331D336F7B00B98438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C141331D336F7B00B98438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C141321D336F7B00B98438 /* JYChatMessage.app */,
+				19C1414B1D336F7B00B98438 /* JYChatMessageTests.xctest */,
+				19C141561D336F7B00B98438 /* JYChatMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C141341D336F7B00B98438 /* JYChatMessage */ = {
+			isa = PBXGroup;
+			children = (
+				19C141381D336F7B00B98438 /* AppDelegate.h */,
+				19C141391D336F7B00B98438 /* AppDelegate.m */,
+				19C1413B1D336F7B00B98438 /* ViewController.h */,
+				19C1413C1D336F7B00B98438 /* ViewController.m */,
+				19C1413E1D336F7B00B98438 /* Main.storyboard */,
+				19C141411D336F7B00B98438 /* Assets.xcassets */,
+				19C141431D336F7B00B98438 /* LaunchScreen.storyboard */,
+				19C141461D336F7B00B98438 /* Info.plist */,
+				19C141351D336F7B00B98438 /* Supporting Files */,
+			);
+			path = JYChatMessage;
+			sourceTree = "<group>";
+		};
+		19C141351D336F7B00B98438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C141361D336F7B00B98438 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19C1414E1D336F7B00B98438 /* JYChatMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C1414F1D336F7B00B98438 /* JYChatMessageTests.m */,
+				19C141511D336F7B00B98438 /* Info.plist */,
+			);
+			path = JYChatMessageTests;
+			sourceTree = "<group>";
+		};
+		19C141591D336F7B00B98438 /* JYChatMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19C1415A1D336F7B00B98438 /* JYChatMessageUITests.m */,
+				19C1415C1D336F7B00B98438 /* Info.plist */,
+			);
+			path = JYChatMessageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C141311D336F7B00B98438 /* JYChatMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C1415F1D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessage" */;
+			buildPhases = (
+				19C1412E1D336F7B00B98438 /* Sources */,
+				19C1412F1D336F7B00B98438 /* Frameworks */,
+				19C141301D336F7B00B98438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYChatMessage;
+			productName = JYChatMessage;
+			productReference = 19C141321D336F7B00B98438 /* JYChatMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C1414A1D336F7B00B98438 /* JYChatMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C141621D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessageTests" */;
+			buildPhases = (
+				19C141471D336F7B00B98438 /* Sources */,
+				19C141481D336F7B00B98438 /* Frameworks */,
+				19C141491D336F7B00B98438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C1414D1D336F7B00B98438 /* PBXTargetDependency */,
+			);
+			name = JYChatMessageTests;
+			productName = JYChatMessageTests;
+			productReference = 19C1414B1D336F7B00B98438 /* JYChatMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19C141551D336F7B00B98438 /* JYChatMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C141651D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessageUITests" */;
+			buildPhases = (
+				19C141521D336F7B00B98438 /* Sources */,
+				19C141531D336F7B00B98438 /* Frameworks */,
+				19C141541D336F7B00B98438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C141581D336F7B00B98438 /* PBXTargetDependency */,
+			);
+			name = JYChatMessageUITests;
+			productName = JYChatMessageUITests;
+			productReference = 19C141561D336F7B00B98438 /* JYChatMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C1412A1D336F7B00B98438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JolieYa;
+				TargetAttributes = {
+					19C141311D336F7B00B98438 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					19C1414A1D336F7B00B98438 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 19C141311D336F7B00B98438;
+					};
+					19C141551D336F7B00B98438 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 19C141311D336F7B00B98438;
+					};
+				};
+			};
+			buildConfigurationList = 19C1412D1D336F7B00B98438 /* Build configuration list for PBXProject "JYChatMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C141291D336F7B00B98438;
+			productRefGroup = 19C141331D336F7B00B98438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C141311D336F7B00B98438 /* JYChatMessage */,
+				19C1414A1D336F7B00B98438 /* JYChatMessageTests */,
+				19C141551D336F7B00B98438 /* JYChatMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C141301D336F7B00B98438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C141451D336F7B00B98438 /* LaunchScreen.storyboard in Resources */,
+				19C141421D336F7B00B98438 /* Assets.xcassets in Resources */,
+				19C141401D336F7B00B98438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141491D336F7B00B98438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141541D336F7B00B98438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C1412E1D336F7B00B98438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1413D1D336F7B00B98438 /* ViewController.m in Sources */,
+				19C1413A1D336F7B00B98438 /* AppDelegate.m in Sources */,
+				19C141371D336F7B00B98438 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141471D336F7B00B98438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C141501D336F7B00B98438 /* JYChatMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C141521D336F7B00B98438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1415B1D336F7B00B98438 /* JYChatMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C1414D1D336F7B00B98438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C141311D336F7B00B98438 /* JYChatMessage */;
+			targetProxy = 19C1414C1D336F7B00B98438 /* PBXContainerItemProxy */;
+		};
+		19C141581D336F7B00B98438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C141311D336F7B00B98438 /* JYChatMessage */;
+			targetProxy = 19C141571D336F7B00B98438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C1413E1D336F7B00B98438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C1413F1D336F7B00B98438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19C141431D336F7B00B98438 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C141441D336F7B00B98438 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C1415D1D336F7B00B98438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19C1415E1D336F7B00B98438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C141601D336F7B00B98438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYChatMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19C141611D336F7B00B98438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYChatMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19C141631D336F7B00B98438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYChatMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYChatMessage.app/JYChatMessage";
+			};
+			name = Debug;
+		};
+		19C141641D336F7B00B98438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYChatMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYChatMessage.app/JYChatMessage";
+			};
+			name = Release;
+		};
+		19C141661D336F7B00B98438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYChatMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYChatMessage;
+			};
+			name = Debug;
+		};
+		19C141671D336F7B00B98438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYChatMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JolieYa.JYChatMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYChatMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C1412D1D336F7B00B98438 /* Build configuration list for PBXProject "JYChatMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C1415D1D336F7B00B98438 /* Debug */,
+				19C1415E1D336F7B00B98438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C1415F1D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C141601D336F7B00B98438 /* Debug */,
+				19C141611D336F7B00B98438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19C141621D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C141631D336F7B00B98438 /* Debug */,
+				19C141641D336F7B00B98438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19C141651D336F7B00B98438 /* Build configuration list for PBXNativeTarget "JYChatMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C141661D336F7B00B98438 /* Debug */,
+				19C141671D336F7B00B98438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C1412A1D336F7B00B98438 /* Project object */;
+}

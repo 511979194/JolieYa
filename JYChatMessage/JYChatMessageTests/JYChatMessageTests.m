@@ -1,18 +1,18 @@
 //
-//  test3Tests.m
-//  test3Tests
+//  JYChatMessageTests.m
+//  JYChatMessageTests
 //
 //  Created by 龚爱荣 on 16/7/11.
-//  Copyright © 2016年 JZM. All rights reserved.
+//  Copyright © 2016年 JolieYa. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface test3Tests : XCTestCase
+@interface JYChatMessageTests : XCTestCase
 
 @end
 
-@implementation test3Tests
+@implementation JYChatMessageTests
 
 - (void)setUp {
     [super setUp];
